@@ -1,1 +1,214 @@
+body {
+  font-family: 'Telegraf', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+
+.container {
+  text-align: center;
+}
+
+.btn {
+  background-color: #0E0E2C;
+  color: #fff;
+  padding: 1em 0.9em;
+  border-radius: 0.7em;
+  width: 30%;
+  text-decoration: none;
+  margin: 0 auto;
+  /* Center the button horizontally */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-size: contain;
+  /* Adjust the background size as needed */
+  background-repeat: no-repeat;
+  /* Prevent the background from repeating */
+  height: 10%;
+  /* Set the height of the navigation bar to fit the logo */
+  padding: 0 4%;
+  /* Add some padding to the left and right to give space for the logo */
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  /* This will space the links and .right-element */
+  align-items: center;
+  /* Vertically center the links and .right-element */
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+nav a {
+  /* Add some right margin between the links */
+  /* Add any additional styling for your links */
+  color: black;
+  /* Set link color to black */
+  text-decoration: none;
+  /* Remove underline from links */
+  margin-right: 2%;
+  font-family: 'Telegraf', sans-serif;
+}
+
+/* Add hover styles */
+nav a:hover {
+  color: darkgoldenrod;
+  /* Change the link color on hover */
+  text-decoration: underline;
+  /* Add an underline on hover */
+}
+
+/* Add a new class for the fixed navigation bar */
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  /* Set the desired background color for the fixed nav bar */
+  z-index: 100;
+  /* Set a high z-index to ensure it appears above other elements */
+}
+
+.right-element {
+  /* No special styling required for .right-element */
+  color: black;
+}
+
+.right-container {
+  display: flex;
+  align-items: flex-end;
+  /* Align items to the end of the flex container */
+  color: black;
+}
+
+.navbar-container {
+  margin-top: 0.5%;
+  /* Add 5 pixels margin to push the navbar down */
+  background-color: white;
+  padding: 1% 2%;
+  /* Adjust the padding as per your design */
+  font-style: italic;
+}
+
+.section1 {
+  padding-top: 5%;
+  /* Reset the padding for mobile */
+  margin-top: 12%;
+
+  /* Adjust the margin for mobile */
+  background-color: white;
+  /* Set a background color for the section */
+}
+
+.highlight {
+  /* Add any specific styling for the highlighted word (e.g., color, font-weight) */
+}
+
+.centered-video {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  /* Center the image horizontally */
+  margin-top: 2%;
+  /* Add margin to separate the image from the text */
+}
+
+.centered-image img {
+  /* Add any styling for the image (e.g., width, height) */
+}
+
+ul {
+  list-style-type: disc;
+}
+
+footer {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 1%;
+}
+
+.about {
+  background-color: #0E0E2C;
+  margin-top: 10%;
+  padding: 5%;
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  font-style: italic;
+}
+
+.aboutcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Services section styles */
+.services {
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Telegraf', sans-serif;
+  font-size: 170%;
+  margin-top: 5%;
+}
+
+/* Apply the styles to images inside sticky notes on different screen sizes */
+.sticky-note img {
+  max-width: 50%;
+  /* For larger screens, set the maximum width of images to 100% of their container */
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .sticky-note-item {
+    flex-basis: 100%;
+    /* On smaller screens, each sticky note takes up 100% of the container width */
+    max-width: 100%;
+    /* Set the maximum width to 100% to occupy the full container width */
+  }
+}
+
+.contact {
+  background-color: #0E0E2C;
+  padding: 5%;
+  color: #fff;
+  text-align: center;
+  font-family: 'Telegraf', sans-serif;
+  margin-top: 5%;
+  font-size: 170%;
+
+}
+
+.contactcontainer {
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.bold-text {
+  font-weight: bold;
+}
