@@ -46,6 +46,7 @@ nav {
   /* Vertically center the links and .right-element */
   margin-right: 2%;
   margin-left: 2%;
+  background-color: black;
 }
 
 nav a {
