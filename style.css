@@ -197,7 +197,10 @@ footer {
   font-family: 'Telegraf', sans-serif;
   margin-top: 5%;
   font-size: 170%;
-  text-color: black;
+}
+
+a {
+  color: white;
 }
 
 .contactcontainer {
