@@ -110,25 +110,9 @@ nav a:hover {
   /* Set a background color for the section */
 }
 
-.highlight {
-  /* Add any specific styling for the highlighted word (e.g., color, font-weight) */
-}
-
 .centered-video {
   display: flex;
   justify-content: center;
-}
-
-.centered-image {
-  display: flex;
-  justify-content: center;
-  /* Center the image horizontally */
-  margin-top: 2%;
-  /* Add margin to separate the image from the text */
-}
-
-.centered-image img {
-  /* Add any styling for the image (e.g., width, height) */
 }
 
 ul {
@@ -189,22 +173,6 @@ footer {
   font-family: 'Telegraf', sans-serif;
   font-size: 170%;
   margin-top: 5%;
-}
-
-/* Apply the styles to images inside sticky notes on different screen sizes */
-.sticky-note img {
-  max-width: 50%;
-  /* For larger screens, set the maximum width of images to 100% of their container */
-}
-
-/* Media Query for smaller screens */
-@media screen and (max-width: 768px) {
-  .sticky-note-item {
-    flex-basis: 100%;
-    /* On smaller screens, each sticky note takes up 100% of the container width */
-    max-width: 100%;
-    /* Set the maximum width to 100% to occupy the full container width */
-  }
 }
 
 .contact {
