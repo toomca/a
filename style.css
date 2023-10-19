@@ -215,3 +215,14 @@ a {
 .bold-text {
   font-weight: bold;
 }
+
+.instagram-posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between posts as needed */
+}
+
+.instagram-post {
+  flex: 1;
+}
+
