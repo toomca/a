@@ -177,7 +177,7 @@ footer {
 .whocontainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 /* Services section styles */
