@@ -179,7 +179,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  flex: wrap;
+  display: flex-wrap;
 }
 
 /* Services section styles */
