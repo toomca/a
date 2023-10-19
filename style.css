@@ -164,6 +164,16 @@ footer {
   justify-content: center;
 }
 
+.about {
+  background-color: #0E0E2C;
+  margin-top: 10%;
+  padding: 5%;
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  font-style: italic;
+}
+
 /* Services section styles */
 .services {
   background-color: #fff;
