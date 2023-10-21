@@ -184,8 +184,20 @@ footer {
 }
 
 .doc {
-  align-items: center;
+  display: flex; /* Use flexbox to create a horizontal layout */
+  align-items: center; /* Vertically center content */
 }
+
+/* Adjust the styles for iframe and image */
+.doc iframe {
+  flex: 1; /* Allow the iframe to grow and take available space */
+  margin-right: 20px; /* Add some spacing between the iframe and image */
+}
+
+.doc img {
+  max-width: 40%; /* Set a maximum width for the image */
+}
+
 
 /* Services section styles */
 .services {
