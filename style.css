@@ -183,15 +183,6 @@ footer {
   flex-direction: column;
 }
 
-.doc iframe {
-  margin-right: 20px; /* Add some spacing between the iframe and image */
-}
-
-.doc img {
-  max-width: 40%; /* Set a maximum width for the image */
-}
-
-
 /* Services section styles */
 .services {
   background-color: #fff;
