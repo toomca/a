@@ -183,14 +183,9 @@ footer {
   flex-direction: column;
 }
 
-.doc {
-  display: flex; /* Use flexbox to create a horizontal layout */
-  align-items: center; /* Vertically center content */
-}
-
-/* Adjust the styles for iframe and image */
 .doc iframe {
-  flex: 1; /* Allow the iframe to grow and take available space */
+  max-width: 80%; /* Set a maximum width for the iframe */
+  max-height: 60vh; /* Set a maximum height for the iframe, adjust as needed */
   margin-right: 20px; /* Add some spacing between the iframe and image */
 }
 
