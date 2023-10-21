@@ -186,6 +186,7 @@ footer {
 .doc {
   display: flex; /* Use flexbox to create a horizontal layout */
   align-items: center; /* Vertically center content */
+  height: 50vh;
 }
 
 /* Adjust the styles for iframe and image */
