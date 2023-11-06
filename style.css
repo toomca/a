@@ -1,5 +1,5 @@
 body {
-  font-family: 'Telegraf', sans-serif;
+  font-family: 'Poppins', sans-serif;  
   margin: 0;
   padding: 0;
   padding: 25px;
@@ -59,7 +59,7 @@ nav a {
   text-decoration: none;
   /* Remove underline from links */
   margin-right: 2%;
-  font-family: 'Telegraf', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Add hover styles */
@@ -190,7 +190,7 @@ footer {
 .services {
   background-color: #fff;
   text-align: center;
-  font-family: 'Telegraf', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 170%;
   margin-top: 5%;
 }
@@ -200,7 +200,7 @@ footer {
   padding: 5%;
   color: #fff;
   text-align: center;
-  font-family: 'Telegraf', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 5%;
   font-size: 170%;
 }
