@@ -1,13 +1,11 @@
-/* Reset default styles */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background-color: white;
   color: black;
-  font-size: 25px;
-  padding: 0 25px; /* Adjust horizontal padding */
 }
+
 
 .container {
   text-align: center;
@@ -21,71 +19,97 @@ body {
   width: 30%;
   text-decoration: none;
   margin: 0 auto;
+  /* Center the button horizontally */
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-size: contain;
+  /* Adjust the background size as needed */
+  background-repeat: no-repeat;
+  /* Prevent the background from repeating */
   height: 10%;
+  /* Set the height of the navigation bar to fit the logo */
   padding: 0 4%;
+  /* Add some padding to the left and right to give space for the logo */
   background-color: white;
   border-bottom: 1px solid #ddd;
   position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
 }
 
 nav {
   flex: 1;
   display: flex;
   justify-content: space-between;
+  /* This will space the links and .right-element */
   align-items: center;
+  /* Vertically center the links and .right-element */
   margin-right: 2%;
   margin-left: 2%;
 }
 
 nav a {
+  /* Add some right margin between the links */
+  /* Add any additional styling for your links */
   color: black;
+  /* Set link color to black */
   text-decoration: none;
+  /* Remove underline from links */
   margin-right: 2%;
   font-family: 'Poppins', sans-serif;
 }
 
+/* Add hover styles */
 nav a:hover {
   color: darkgoldenrod;
+  /* Change the link color on hover */
   text-decoration: underline;
+  /* Add an underline on hover */
 }
 
-/* Add styles for the fixed navigation bar */
+/* Add a new class for the fixed navigation bar */
 .fixed-navbar {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: white;
+  /* Set the desired background color for the fixed nav bar */
+  z-index: 100;
+  /* Set a high z-index to ensure it appears above other elements */
 }
 
 .right-element {
+  /* No special styling required for .right-element */
   color: black;
 }
 
 .right-container {
   display: flex;
   align-items: flex-end;
+  /* Align items to the end of the flex container */
   color: black;
 }
 
 .navbar-container {
   margin-top: 0.5%;
+  /* Add 5 pixels margin to push the navbar down */
   background-color: white;
   padding: 1% 2%;
+  /* Adjust the padding as per your design */
   font-style: italic;
 }
 
 .section1 {
   padding-top: 5%;
+  /* Reset the padding for mobile */
   margin-top: 12%;
+
+  /* Adjust the margin for mobile */
   background-color: white;
+  /* Set a background color for the section */
 }
 
 .centered-video {
@@ -127,7 +151,7 @@ footer {
 }
 
 .who {
-  background-color: #fff;
+  background-color: #FFF;
   margin-top: 10%;
   padding: 5%;
   color: black;
